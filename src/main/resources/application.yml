@@ -1,6 +1,1 @@
-#httpbin:
-#  ribbon:
-#    NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
-#    listOfServers: demo-foo.service.consul:8080
-
 feign.hystrix.enabled: true
